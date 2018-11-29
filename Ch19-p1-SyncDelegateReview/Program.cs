@@ -11,6 +11,7 @@ namespace Ch19_p1_SyncDelegateReview
     public delegate int BinaryOp(int x, int y);
     class Program
     {
+        IAsyncResult
         static void Main(string[] args)
         {
             Console.WriteLine("***** Synch Delegate Review *****");
